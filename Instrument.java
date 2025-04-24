@@ -10,4 +10,7 @@ public abstract class Instrument {
   {
     System.out.print(this + " has been tuned and played!");
   }
+  public String toString() {
+    return getClass().getSimpleName();
+  }
 }
